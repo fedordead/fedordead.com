@@ -1,0 +1,20 @@
+{
+  "name": "fedordead",
+  "version": "1.0.0",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o assets/css src/scss/style.scss",
+    "autoprefixer": "postcss -u autoprefixer -r assets/css/style.css",
+    "compile": "mustache posts.json index.mustache > index.html",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "watch": "onchange 'src/scss/**.scss' -- npm run build:css",
+    "build": "npm run build:css && npm run compile"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "mustache": "^2.2.1",
+    "node-sass": "^3.4.2",
+    "onchange": "^2.0.0",
+    "postcss-cli": "^2.5.1",
+    "shell-csslib": "^0.5.0"
+  }
+}

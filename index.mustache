@@ -73,6 +73,7 @@
             flex-direction: column;
             flex: 1 100%;
             min-height: 100vh;
+            padding: 0 2em;
         }
 
         .☠:first-child {
@@ -106,16 +107,27 @@
             their adventures in frontend land.</p>
             <ul>
                 <li><a href="http://davidberner.co.uk/" rel="external">Dave Berner</a></li>
+                <li><a href="http://bardhovde.com/" rel="external">Bård Hovde</a></li>
                 <li><a href="http://chris-pearce.me" rel="external">Chris Pearce</a></li>
-                <li><a href="http://bardhovde.com/" rel="external">Bård N. Hovde</a></li>
                 <li><a href="https://twitter.com/GaryWood_" rel="external">Gary Wood</a></li>
             </ul>
             <a href="mailto:alive@fedordead.com">alive@fedordead.com</a>
         </div>
     </div>
     <div class="☠">
-        <a class="m-collection" href="https://medium.com/fed-or-dead">FED || Dead on Medium</a>
-        <script async src="https://static.medium.com/embed.js"></script>
+        <ul>
+            {{#posts}}
+            <li class="c-post">
+                <a href="/link-to-wherever.html">
+                    <h3 class="heading">{{title}}</h3>
+                    <p>{{summary}}</p>
+                    <p>{{author}}</p>
+                    <p>{{published_date}}</p>
+                    <p>Published on: {{platform}}</p>
+                </a>
+            </li>
+             {{/posts}}
+        </ul>
     </div>
 </body>
 </html>

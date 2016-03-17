@@ -1,0 +1,92 @@
+{
+    "posts": [
+        {
+            "title": "Let’s Try Harder With Web Accessibility",
+            "summary": "The Web truly is an empowering platform that enhances and broadens the lives of people with disabilities. It breaks down barriers that…",
+            "author": "Chris Pearce",
+            "published_date": "Feb 25",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/let-s-try-harder-with-web-accessibility-1d1a8db7afc0?source=latest---"
+        },
+        {
+            "title": "How to decide what to learn next",
+            "summary": "Or: Help! I am drowning in knowledge",
+            "author": "Bård Hovde",
+            "published_date": "Jan 12",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/how-to-decide-what-to-learn-next-a47153c0d202?source=latest---"
+        },
+        {
+            "title": "7 reasons you should be hiring more junior developers",
+            "summary": "I know it’s tempting, you’ve finally been given extra headcount for your team or you’re about to start a new project and your first thought…",
+            "author": "David Berner",
+            "published_date": "Jan 5",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/7-reasons-you-should-be-hiring-more-junior-developers-49f8d4a32fd0?source=latest---"
+        },
+        {
+            "title": "Battling BEM – 5 common problems and how to avoid them",
+            "summary": "Whether you’ve just discovered BEM or are an old hand (in Web terms anyway!) and have been using it for the past few years, you can…",
+            "author": "David Berner",
+            "published_date": "Dec 8, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/battling-bem-5-common-problems-and-how-to-avoid-them-5bbd23dee319?source=latest---"
+        },
+        {
+            "title": "Reflections of a User Interface Developer",
+            "summary": "A craft is a pastime or a profession that requires particular skills and knowledge of skilled work",
+            "author": "Chris Pearce",
+            "published_date": "Nov 29, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/sublime-text-to-vs-code-87fccca84268?source=latest---#a276"
+        },
+        {
+            "title": "From Sublime Text to VS Code",
+            "summary": "Ready for a change of scenery?",
+            "author": "Bård Hovde",
+            "published_date": "Nov 24, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/sublime-text-to-vs-code-87fccca84268?source=latest---#a276"
+        },
+        {
+            "title": "Do you really need a CMS?",
+            "summary": "Escaping the dynamic content pitfalls",
+            "author": "Bård Hovde",
+            "published_date": "Nov 10, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/do-you-really-need-a-cms-d702aaafb09?source=latest---"
+        },
+        {
+            "title": "Transitioning to working with a Designer",
+            "summary": "If you’re a Front-end Developer like me, odds are that you have (or believe you have) a few creative bones in your body. Since I started…",
+            "author": "David Berner",
+            "published_date": "Nov 6, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/transitioning-to-working-with-a-designer-576f16d9b330?source=latest---"
+        },
+        {
+            "title": "Giving back – an hour of code",
+            "summary": "At Campaign Monitor we recently took part in the Hour of Code programme.",
+            "author": "David Berner",
+            "published_date": "Oct 19, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/giving-back-an-hour-of-code-b26ea5c7656f?source=latest---"
+        },
+        {
+            "title": "Margin collapse — or; why your child element is moving the parent",
+            "summary": "You’re building a new landing page at work. You’ve fleshed out the basic template, and you’re applying some generic layout styles.",
+            "author": "Gary Wood",
+            "published_date": "Oct 15, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/margin-collapse-or-why-your-child-element-is-moving-the-parent-b199a0b60497#.vwd1omwaq"
+        },
+        {
+            "title": "Margin collapse — or; why your child element is moving the parent",
+            "summary": "You’re building a new landing page at work. You’ve fleshed out the basic template, and you’re applying some generic layout styles.",
+            "author": "Gary Wood",
+            "published_date": "Oct 15, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/margin-collapse-or-why-your-child-element-is-moving-the-parent-b199a0b60497#.vwd1omwaq"
+        }
+    ]
+}

@@ -54,5 +54,4 @@ thumbs.db
 /build
 npm-debug.log
 node_modules
-/workshop
-/workshop.zip
+index.html
