@@ -1,6 +1,14 @@
 {
     "posts": [
         {
+            "title": "Using responsive Web Components today",
+            "summary": "Web Components are set to simplify how we approach responsive design. Here's how you can start using them today",
+            "author": "David Berner",
+            "published_date": "Mar 18",
+            "platform": "Sitepoint.com",
+            "url": "http://www.sitepoint.com/responsive-web-components/"
+        },
+        {
             "title": "Let’s Try Harder With Web Accessibility",
             "summary": "The Web truly is an empowering platform that enhances and broadens the lives of people with disabilities. It breaks down barriers that…",
             "author": "Chris Pearce",
@@ -38,7 +46,7 @@
             "author": "Chris Pearce",
             "published_date": "Nov 29, 2015",
             "platform": "Medium.com",
-            "url": "https://medium.com/fed-or-dead/sublime-text-to-vs-code-87fccca84268?source=latest---#a276"
+            "url": "https://medium.com/fed-or-dead/reflections-of-a-user-interface-developer-fbce08c31afc?source=latest---"
         },
         {
             "title": "From Sublime Text to VS Code",
@@ -73,20 +81,76 @@
             "url": "https://medium.com/fed-or-dead/giving-back-an-hour-of-code-b26ea5c7656f?source=latest---"
         },
         {
-            "title": "Margin collapse — or; why your child element is moving the parent",
-            "summary": "You’re building a new landing page at work. You’ve fleshed out the basic template, and you’re applying some generic layout styles.",
-            "author": "Gary Wood",
-            "published_date": "Oct 15, 2015",
+            "title": "Why ‘I don’t have time’ is a bullshit excuse for not learning",
+            "summary": " — and how to stop using it",
+            "author": "David Berner",
+            "published_date": "Oct 13, 2015",
             "platform": "Medium.com",
-            "url": "https://medium.com/fed-or-dead/margin-collapse-or-why-your-child-element-is-moving-the-parent-b199a0b60497#.vwd1omwaq"
+            "url": "https://medium.com/fed-or-dead/why-i-don-t-have-time-is-a-bullshit-excuse-for-not-learning-de5eb3e780ae?source=latest---"
         },
         {
-            "title": "Margin collapse — or; why your child element is moving the parent",
-            "summary": "You’re building a new landing page at work. You’ve fleshed out the basic template, and you’re applying some generic layout styles.",
-            "author": "Gary Wood",
-            "published_date": "Oct 15, 2015",
+            "title": "Legacy Code: A tale of horror",
+            "summary": "Part 1/2: What is it? Where did it come from and how to stop it from happening.",
+            "author": "Bård Hovde",
+            "published_date": "Oct 8, 2015",
             "platform": "Medium.com",
-            "url": "https://medium.com/fed-or-dead/margin-collapse-or-why-your-child-element-is-moving-the-parent-b199a0b60497#.vwd1omwaq"
+            "url": "https://medium.com/fed-or-dead/legacy-code-b433b4a63a88#.9885b3h1f"
+        },
+        {
+            "title": "Three (not so obvious) tips for beginner front end developers",
+            "summary": "",
+            "author": "Gary Wood",
+            "published_date": "Oct 5, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/three-not-so-obvious-tips-for-beginner-front-end-developers-d132c15b03ad?source=latest---"
+        },
+        {
+            "title": "Is full-stack a thing?",
+            "summary": "There have been a lot of arguments on this topic but as someone who has worked for the last year and a half as a full…",
+            "author": "David Berner",
+            "published_date": "Sep 29, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/is-full-stack-a-thing-e9730c99c9a9?source=latest---"
+        },
+        {
+            "title": "Bored of Flat Design",
+            "summary": "Is anyone else bored of flat design yet? I’m tired of seeing the same uninspired, generic, template-style sites that are…",
+            "author": "David Berner",
+            "published_date": "Sep 19, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/bored-of-flat-design-518f15d28331?source=latest---"
+        },
+        {
+            "title": "Tips and tools for collaborating remotely",
+            "summary": "Maybe you’re considering emigrating. Perhaps the person you enjoy working alongside the…",
+            "author": "David Berner",
+            "published_date": "Sep 12, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/tips-and-tools-for-collaborating-remotely-795d53b9a307?source=latest---"
+        },
+        {
+            "title": "The future web developer",
+            "summary": "A crazy attempt at predicting the unpredictable",
+            "author": "Bård Hovde",
+            "published_date": "Jul 02, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/the-future-web-developer-72b780293186?source=latest---"
+        },
+        {
+            "title": "Help, there’s too much to learn!",
+            "summary": "No doubt you’ve felt this too. As a front-end developer it seems there is a never ending list of tools…",
+            "author": "David Berner",
+            "published_date": "Jun 20, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/help-there-s-too-much-to-learn-ea6696651457?source=latest---"
+        },
+        {
+            "title": "Jank-free Scrolling",
+            "summary": "Getting rid of the jank",
+            "author": "Bård Hovde",
+            "published_date": "Apr 18, 2015",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/jank-free-scrolling-77688a117ffc?source=latest---"
         }
     ]
 }
