@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-au">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FED || Dead—a bunch of passionate frontend devs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style></style>
+</head>
+<body>
+    <div class="l-intro">
+        <div class="l-intro__inner">
+            <img src="logo-min.svg" alt="FED || Dead logo" class="⚰">
+            <p>A bunch of passionate frontend devs writing &amp; speaking about
+            their adventures in frontend land.</p>
+            <ul>
+                <li><a href="http://davidberner.co.uk/" rel="external">Dave Berner</a></li>
+                <li><a href="http://bardhovde.com/" rel="external">Bård Hovde</a></li>
+                <li><a href="http://chris-pearce.me" rel="external">Chris Pearce</a></li>
+                <li><a href="https://twitter.com/GaryWood_" rel="external">Gary Wood</a></li>
+                <li><a href="https://twitter.com/NGMoreton" rel="external">Nick Moreton</a></li>
+            </ul>
+            <a href="mailto:alive@fedordead.com">alive@fedordead.com</a>
+        </div>
+    </div>
+    <div class="l-posts">
+        <ul class="c-posts">
+            {{#posts}}
+            <li class="c-posts__item">
+                <a href="{{url}}">
+                    <h1 class="heading">{{title}}</h1>
+                    <p>{{summary}}</p>
+                    <p>{{author}}</p>
+                    <p>{{published_date}}</p>
+                    <p>Published on: {{platform}}</p>
+                </a>
+            </li>
+            {{/posts}}
+        </ul>
+    </div>
+</body>
+</html>

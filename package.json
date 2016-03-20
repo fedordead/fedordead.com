@@ -1,20 +1,30 @@
 {
   "name": "fedordead",
+  "description": "Website for FED || Dead",
   "version": "1.0.0",
   "scripts": {
-    "scss": "node-sass --output-style compressed -o assets/css src/scss/style.scss",
-    "autoprefixer": "postcss -u autoprefixer -r assets/css/style.css",
-    "compile": "mustache posts.json index.mustache > index.html",
-    "build:css": "npm run scss && npm run autoprefixer",
-    "watch": "onchange 'src/scss/**.scss' -- npm run build:css",
-    "build": "npm run build:css && npm run compile"
+    "svg-min": "svgo -f src/_assets/img/**.svg -o dist/img",
+    "compile-html": "mustache src/data/posts.json src/index.mustache > dist/index.html",
+    "compile-scss": "node-sass --output-style compressed -o dist/css src/_assets/scss/style.scss",
+    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "watch:css": "onchange 'src/_assets/scss/**.scss' -- npm run build:css",
+    "watch:html": "onchange 'src/**.mustache' -- npm run compile-html",
+    "watch:all": "parallelshell 'npm run watch:css' 'npm run watch:html'",
+    "build:css": "parallelshell 'npm run compile-scss' 'npm run autoprefixer'",
+    "build:all": "parallelshell 'npm run build:css' 'npm run compile-html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fedordead/fedordead.com.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.3",
     "mustache": "^2.2.1",
     "node-sass": "^3.4.2",
     "onchange": "^2.0.0",
+    "parallelshell": "^2.0.0",
     "postcss-cli": "^2.5.1",
-    "shell-csslib": "^0.5.0"
+    "shell-csslib": "^0.5.0",
+    "svgo": "^0.6.2"
   }
 }
