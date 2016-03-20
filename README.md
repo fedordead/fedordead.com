@@ -9,7 +9,4 @@ The website for FED || Dead.
 1. `git clone`
 2. `cd path-to-where-you-git-cloned`
 3. `npm install`
-4. `npm run compile` to compile JSON into Mustache template and output a 
-    `index.html` file.
-
-    *N.B. for all NPM scripts see: `package.json` -> `scripts`.*
+4. For all NPM scripts see: `package.json` -> `scripts`.
