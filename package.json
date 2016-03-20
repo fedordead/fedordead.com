@@ -3,7 +3,7 @@
   "description": "Website for FED || Dead",
   "version": "1.0.0",
   "scripts": {
-    "svg-min": "svgo -f src/_assets/img/**.svg -o dist/img",
+    "svg-min": "svgo -f src/_assets/img -o dist/img",
     "compile-html": "mustache src/data/posts.json src/index.mustache > dist/index.html",
     "compile-scss": "node-sass --output-style compressed -o dist/css src/_assets/scss/style.scss",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
@@ -11,7 +11,7 @@
     "watch:html": "onchange 'src/**.mustache' -- npm run compile-html",
     "watch:all": "parallelshell 'npm run watch:css' 'npm run watch:html'",
     "build:css": "parallelshell 'npm run compile-scss' 'npm run autoprefixer'",
-    "build:all": "parallelshell 'npm run build:css' 'npm run compile-html'"
+    "build:all": "parallelshell 'npm run build:css' 'npm run compile-html' 'npm run svg-min'"
   },
   "repository": {
     "type": "git",
