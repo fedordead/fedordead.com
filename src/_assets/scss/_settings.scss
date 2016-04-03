@@ -1,0 +1,144 @@
+/* ============================================================================
+   SETTINGS
+   ========================================================================= */
+
+/**
+ * All global settings (Sass variables) and any Shell library setting
+ * overrides.
+ *
+ * The project settings can use any of the Shell library settings, like so:
+ *
+   $g-color-code-block-background: $shell-g-color-white;
+ *
+ * ---------------------------------------------------------------------------
+ *
+ * All settings start with a global namespace: `$g` followed by one hyphen,
+ * like this:
+ *
+   $g-;
+ *
+ * The "g" stands for "global".
+ *
+ * ----------------------------------------------------------------------------
+ *
+ * CONTENTS:
+ *
+ * 1. Colours
+ * 2. Typography
+ * 3. Shell overrides
+ */
+
+
+
+
+/* 1. Colours
+   ========================================================================= */
+
+/**
+ * Brand.
+ */
+
+$g-color-brand: hotpink;
+
+
+/**
+ * Base text colour.
+ */
+
+//$g-color-text-base: $g-color-grey-800;
+
+
+/**
+ * Link.
+ */
+
+$g-color-link: $g-color-brand;
+
+
+
+
+/* 2. Typography
+   ========================================================================= */
+
+
+
+
+/* 3. Shell overrides
+   ========================================================================= */
+
+/**
+ * Baseline number.
+ */
+
+//$shell-g-base-number: 16;
+
+
+/**
+ * Colours (Global).
+ */
+
+// $shell-g-color-text-base: $g-color-text-base;
+
+// $shell-g-color-text-heading: $shell-g-color-text-base;
+
+$shell-g-color-link: $g-color-link;
+
+// $shell-g-color-link-hover: darken($shell-g-color-link, 10%);
+
+
+/**
+ * Typography (Global).
+ */
+
+// Base
+//$shell-g-font-family-base: sans-serif;
+
+// Mono-space
+//$shell-g-font-family-monospace: Consolas, monospace;
+
+
+/**
+ * Z-Index system (Global).
+ */
+
+$shell-g-z-layers: (
+    'app-builder': 2,
+    'underneath': -1
+);
+
+
+/**
+ * Base (Local).
+ */
+
+// Booleans
+// $shell-base-apply-osx-font-smoothing: false;
+
+// $shell-base-apply-link-transition: true;
+
+// $shell-base-apply-style-to-disabled-and-readonly-states: true;
+
+$shell-base-apply-bottom-margin-to-paragraphs: true;
+
+// $shell-base-apply-print-styles: true;
+
+// Root element
+//$shell-base-root-element-background-color: $g-color-grey-100;
+
+// Links
+// $shell-base-link-text-decoration: underline;
+
+// $shell-base-link-text-decoration-on-hover: none;
+
+// $shell-base-link-transition-duration: 0.15s;
+
+// $shell-base-link-transition-timing-function: linear;
+
+
+/**
+ * Container (Local).
+ */
+
+// $shell-container-maximum-width: $shell-g-base-number * 100;
+
+// $shell-container-minimum-width: 320;

@@ -1,0 +1,35 @@
+/* ============================================================================
+   BASE
+   ========================================================================= */
+
+/**
+ * Here we provide very basic styling that most UI's will need. These styles
+ * are applied at the most global level being applied via element selectors.
+ * Everything in Base needs to be easily overridden which is really easy to do
+ * as everything in Base sits right at the bottom in terms of specificity.
+ *
+ * Some of this styling builds on top of Shell's "Base".
+ *
+ * CONTENTS:
+ *
+ * 1. Body element
+ */
+
+
+
+
+/* 1. Body element
+   ========================================================================= */
+
+/**
+ * 1. We apply `display: flex;` in order to easily get the main "Layout ->
+ *    Template" elements to be the height of the remaining viewport. And make
+ *    all the "Layout -> Template" elements be stacked in a linear fashion.
+ * 2. We set the `body` element to always be the height of the viewport and
+ *    disable vertical scrolling as we only want scrolling in the Builder and
+ *    Builder Controls sections, see "Layout -> Template -> App".
+ */
+
+body {
+    padding-left: 143px;
+}

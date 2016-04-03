@@ -8,41 +8,36 @@
 </head>
 <body>
 
-    {{!-- Header --}}
     <header class="l-header" role="banner">
-        <img src="img/logo.svg" alt="FED || Dead logo" class="l-header__logo">
-        <p>A bunch of passionate frontend devs writing &amp; speaking about
-        their adventures in frontend land.</p>
-        <ul class="l-header__members">
-            <li><a href="http://davidberner.co.uk/" rel="external">Dave Berner</a></li>
-            <li><a href="http://bardhovde.com/" rel="external">Bård Hovde</a></li>
-            <li><a href="http://chris-pearce.me" rel="external">Chris Pearce</a></li>
-            <li><a href="https://twitter.com/GaryWood_" rel="external">Gary Wood</a></li>
-            <li><a href="https://twitter.com/NGMoreton" rel="external">Nick Moreton</a></li>
-        </ul>
-        <a href="mailto:alive@fedordead.com">alive@fedordead.com</a>
+        <a href="/">
+            <img src="img/logo.svg" alt="FED || Dead logo" class="l-header__logo">
+        </a>
     </header>
     {{!-- //Header --}}
 
-    {{!-- Container --}}
-    <div class="l-container">
 
-        {{!-- Posts --}}
-        <section class="l-posts">
+    <main class="l-container" role="main">
+
+        <p>FED || Dead is a bunch of passionate frontend developers.</p>
+        {{!-- //Intro --}}
+
+        <article>
             <h1>Writing</h1>
             <ol class="c-posts">
                 {{#posts}}
                 <li class="c-posts__item">
                     <a href="{{url}}" rel="external" class="c-posts__link">
                         <h2 class="c-posts__title">{{title}}</h2>
-                        <p class="c-posts__meta">
-                            <span class="c-posts__meta__label">Author:</span>
-                            {{author}}
-                            <span class="c-posts__meta__label">Published on:</span>
-                            <time datetime="">{{published_date}}</time>
-                            <span class="c-posts__meta__label">via:</span>
-                            {{platform}}
-                        </p>
+                        <dl class="c-posts__meta">
+                            <dt class="c-posts__meta-label">Author:</dt>
+                            <dd class="c-posts__meta-value">{{author}}</dd>
+                            <dt class="c-posts__meta-label">Publish date:</dt>
+                            <dd class="c-posts__meta-value">
+                                <time datetime="">{{published_date}}</time>
+                            </dd>
+                            <dt class="c-posts__meta-label">Publication:</dt>
+                            <dd class="c-posts__meta-value">{{platform}}</dd>
+                        </dl>
                         <p class="c-posts__summary">{{summary}}</p>
                     </a>
                 </li>
@@ -51,7 +46,7 @@
         </section>
         {{!-- //Posts --}}
 
-    </div>
+    </main>
     {{!-- //Container --}}
 
 </body>

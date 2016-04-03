@@ -1,162 +1,119 @@
-$color-link: #5398e8;
-$color-text-base: #333;
-$l-header-width: 32vw;
+@charset 'UTF-8';
+
+/* ============================================================================
+   FED || DEAD STYLESHEET
+   ========================================================================= */
+
+/**
+ * Styles for the FED || DEAD site.
+ *
+ * ----------------------------------------------------------------------------
+ *
+ * CONTENTS:
+ *
+ * 1. FED || DEAD settings
+ * 2. Shell library
+ * 3. FED || DEAD styles
+ *
+ * N.B. the above order of sections #1 and #2 must be maintained otherwise Sass
+ * will not compile!
+ */
 
 
-html {
-    box-sizing: border-box;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
 
-html,
-body {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-}
+/* 1. FED || DEAD settings incl. any Shell setting overrides
+   ========================================================================= */
 
-body {
-    color: $color-text-base;
-    display: flex;
-    font-family: Georgia, Times, serif;
-    font-size: 1.05em;
-    line-height: 1.5;
-}
+@import 'settings';
 
-a {
-    color: $color-link;
 
-    &:hover,
-    &:focus {
-        text-decoration: none;
-    }
-}
 
-h1,
-h2,
-p,
-ol,
-ul {
-    margin: 0;
-}
 
-ul,
-ol {
-    list-style-position: outside;
-    margin-left: 0;
-    padding-left: 0;
-}
+/* 2. Shell library
+   ========================================================================= */
 
-h1 {
-    font-size: 2.1em;
-    margin-bottom: 1em;
-}
+/**
+ * The entire library is imported however only use what you need, you will
+ * however need: "Settings" and "Mixins/Functions" for Shell to work.
+ */
 
 
 /**
- * Header.
+ * Settings.
  */
 
-.l-header {
-    background-color: $color-text-base;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    padding: 2em calc(2em + 71px) 2em 2.5em;
-    position: fixed;
-    width: $l-header-width;
-}
-
-/**
- * Logo.
- */
-
-.l-header__logo {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 143px;
-    margin-right: -71px;
-}
-
-/**
- * Members list.
- */
-
-.l-header__members {
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
+@import '../../../node_modules/shell-csslib/src/settings';
 
 
 /**
- * Main container that holds everything except the site header.
+ * Mixins/Functions.
  */
 
-.l-container {
-    margin-left: $l-header-width;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    width: 100%;
-
-    > section {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70ch;
-    }
-}
+@import '../../../node_modules/shell-csslib/src/mixins-functions';
 
 
 /**
- * Posts component.
+ * Normalise/Reset.
  */
 
-.c-posts {
-    list-style: none;
-}
+@import '../../../node_modules/shell-csslib/src/normalise-reset';
 
-.c-posts__item:not(:last-child) {
-    margin-bottom: 1.8em;
-}
 
-.c-posts__link {
-    color: $color-text-base;
-    display: block;
-    text-decoration: none;
-    transition: 0.10s color ease-in;
+/**
+ * Base.
+ */
 
-    &:hover,
-    &:focus {
-        color: $color-link;
-    }
-}
+@import '../../../node_modules/shell-csslib/src/base';
 
-.c-posts__title {
-    margin-bottom: 0.2em;
-}
 
-.c-posts__meta {
-    margin-bottom: 0.4em;
-}
+/**
+ * Container.
+ */
 
-.c-posts__meta__label {
-    color: #666;
-    display: inline-block;
-    font-family: Times;
-    font-style: italic;
+@import '../../../node_modules/shell-csslib/src/container';
 
-    &:not(:first-child) {
-        margin-left: 0.5em;
-    }
-}
+
+/**
+ * Grid.
+ */
+
+@import '../../../node_modules/shell-csslib/src/grid';
+
+
+/**
+ * Side-by-side.
+ */
+
+@import '../../../node_modules/shell-csslib/src/side-by-side';
+
+
+/**
+ * Helpers.
+ */
+
+@import '../../../node_modules/shell-csslib/src/helpers';
+
+
+
+
+/* 3. FED || DEAD styles
+   ========================================================================= */
+
+/**
+ * Base.
+ */
+
+@import 'base';
+
+
+/**
+ * Layout/Template.
+ */
+
+@import 'layout/template/l-header';
+
+
+/**
+ * Components.
+ */
