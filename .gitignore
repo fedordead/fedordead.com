@@ -1,6 +1,6 @@
 # Specific files #
 ###################
-dist/
+
 
 # Compiled source #
 ###################
@@ -10,6 +10,7 @@ dist/
 *.exe
 *.o
 *.so
+dist/
 
 
 # Packages #
