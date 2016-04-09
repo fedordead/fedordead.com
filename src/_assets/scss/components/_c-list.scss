@@ -1,0 +1,19 @@
+/* ============================================================================
+   LAYOUT -> COMPONENTS -> LIST
+   ========================================================================= */
+
+/**
+ * A simple bullet text list, usually user-agent styles would take care of this
+ * but Shell removes all that.
+ */
+
+
+.c-list {
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-bottom: rem($shell-g-spacing-base);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

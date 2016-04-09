@@ -1,0 +1,101 @@
+/* ============================================================================
+   LAYOUT -> COMPONENTS -> POSTS
+   ========================================================================= */
+
+/**
+ * A list of article posts written by the FED members.
+ *
+ * @markup
+    <ol class="c-posts">
+        {{#posts}}
+        <li class="c-posts__item">
+            <a href="{{url}}" rel="external" class="c-posts__link">
+                <h2 class="c-posts__title">{{title}}</h2>
+                <dl class="c-posts__meta">
+                    <dt class="c-posts__meta-label">Author:</dt>
+                    <dd class="c-posts__meta-value">{{author}}</dd>
+                    <dt class="c-posts__meta-label">Publish date:</dt>
+                    <dd class="c-posts__meta-value">
+                        <time datetime="">{{published_date}}</time>
+                    </dd>
+                    <dt class="c-posts__meta-label">Publication:</dt>
+                    <dd class="c-posts__meta-value">{{platform}}</dd>
+                </dl>
+                <p class="c-posts__summary">{{summary}}</p>
+            </a>
+        </li>
+        {{/posts}}
+    </ol>
+ */
+
+
+/**
+ * Settings.
+ */
+
+$c-posts-spacing-bottom: $shell-g-spacing-tiny;
+
+
+.c-posts__item:not(:last-child) {
+    margin-bottom: rem($shell-g-spacing-large);
+}
+
+
+/**
+ * Link that wraps each post item.
+ */
+
+.c-posts__link {
+    color: $g-color-text-base;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+/**
+ * Hover/focus effect that breaks out of the width of its parent and spans the
+ * full width of the viewport.
+ */
+
+.c-posts__link::after {
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.c-posts__link:hover::after,
+.c-posts__link:focus::after {
+    background-color: rgba($shell-g-color-black, 0.03);
+    left: -100%;
+    right: -100%;
+}
+
+
+/**
+ * Post title.
+ */
+
+.c-posts__title {
+    font-weight: $shell-g-font-weight-bold;
+    margin-bottom: rem($c-posts-spacing-bottom);
+}
+
+
+/**
+ * Post meta data.
+ */
+
+.c-posts__meta {
+    color: $g-color-subtle;
+    display: flex;
+    font-size: rem($shell-g-font-size-small);
+    margin-bottom: rem($c-posts-spacing-bottom);
+}
+
+.c-posts__meta-value {
+    margin-left: rem(2);
+    margin-right: rem($shell-g-spacing-base);
+}

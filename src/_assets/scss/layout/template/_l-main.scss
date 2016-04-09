@@ -1,0 +1,22 @@
+/* ============================================================================
+   LAYOUT -> TEMPLATE -> MAIN
+   ========================================================================= */
+
+/**
+ * The main content container.
+ */
+
+
+/**
+ * Settings.
+ */
+
+$l-main-padding-ends: $shell-g-spacing-huge * 2;
+
+
+.l-main {
+    background-color: $shell-g-color-white;
+    clip-path: polygon(97% 2%, 100% 98%, 0 100%, 0 0);
+    padding-bottom: rem($l-main-padding-ends);
+    padding-top: rem($l-main-padding-ends);
+}

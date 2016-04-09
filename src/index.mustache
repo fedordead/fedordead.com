@@ -9,42 +9,70 @@
 <body>
 
     <header class="l-header" role="banner">
-        <a href="/">
-            <img src="img/logo.svg" alt="FED || Dead logo" class="l-header__logo">
+        <a href="/" rel="home" class="l-header__logo">
+            <svg viewBox="0 0 287 310">
+                <use xlink:href="img/logo.svg#logo" class="l-header__logo-svg" />
+            </svg>
         </a>
     </header>
     {{!-- //Header --}}
 
+    <main class="l-main" role="main">
 
-    <main class="l-container" role="main">
+        <div class="l-container">
+            <div class="h-spacing-huge">
+                <p>A bunch of passionate frontend devs writing &amp; speaking about their adventures in frontend land.</p>
+                <ul class="c-list">
+                    <li>
+                        <a href="http://bardhovde.com/" rel="external">Bård Hovde</a>
+                    </li>
+                    <li>
+                        <a href="http://chris-pearce.me" rel="external">Chris Pearce</a>
+                    </li>
+                    <li>
+                        <a href="http://davidberner.co.uk/" rel="external">Dave Berner</a>
+                    </li>
+                    <li>
+                        <a href="http://kllevin.com/" rel="external">Kate Levin</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/GaryWood_" rel="external">Gary Wood</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        {{!-- //Intro and members list --}}
 
-        <p>FED || Dead is a bunch of passionate frontend developers.</p>
-        {{!-- //Intro --}}
 
-        <article>
-            <h1>Writing</h1>
-            <ol class="c-posts">
-                {{#posts}}
-                <li class="c-posts__item">
-                    <a href="{{url}}" rel="external" class="c-posts__link">
-                        <h2 class="c-posts__title">{{title}}</h2>
-                        <dl class="c-posts__meta">
-                            <dt class="c-posts__meta-label">Author:</dt>
-                            <dd class="c-posts__meta-value">{{author}}</dd>
-                            <dt class="c-posts__meta-label">Publish date:</dt>
-                            <dd class="c-posts__meta-value">
-                                <time datetime="">{{published_date}}</time>
-                            </dd>
-                            <dt class="c-posts__meta-label">Publication:</dt>
-                            <dd class="c-posts__meta-value">{{platform}}</dd>
-                        </dl>
-                        <p class="c-posts__summary">{{summary}}</p>
-                    </a>
-                </li>
-                {{/posts}}
-            </ol>
+        <article class="l-container">
+            <div class="h-spacing-huge">
+                <h1 class="heading heading--size-huge  h-spacing-large">Writing</h1>
+                <ol class="c-posts">
+                    {{#posts}}
+                    <li class="c-posts__item">
+                        <a href="{{url}}" rel="external" class="c-posts__link">
+                            <h2 class="c-posts__title">{{title}}</h2>
+                            <dl class="c-posts__meta">
+                                <dt class="c-posts__meta-label">Author:</dt>
+                                <dd class="c-posts__meta-value">{{author}}</dd>
+                                <dt class="c-posts__meta-label">Publish date:</dt>
+                                <dd class="c-posts__meta-value">
+                                    <time datetime="">{{published_date}}</time>
+                                </dd>
+                                <dt class="c-posts__meta-label">Publication:</dt>
+                                <dd class="c-posts__meta-value">{{platform}}</dd>
+                            </dl>
+                            <p class="c-posts__summary">{{summary}}</p>
+                        </a>
+                    </li>
+                    {{/posts}}
+                </ol>
+            </div>
         </section>
         {{!-- //Posts --}}
+
+
+        <a href="mailto:alive@fedordead.com">alive@fedordead.com</a>
 
     </main>
     {{!-- //Container --}}

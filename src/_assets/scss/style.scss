@@ -113,7 +113,13 @@
 
 @import 'layout/template/l-header';
 
+@import 'layout/template/l-main';
+
 
 /**
  * Components.
  */
+
+@import 'components/c-posts';
+
+@import 'components/c-list';
