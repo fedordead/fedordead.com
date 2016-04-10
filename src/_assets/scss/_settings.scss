@@ -1,0 +1,153 @@
+/* ============================================================================
+   SETTINGS
+   ========================================================================= */
+
+/**
+ * All global settings (Sass variables) and any Shell library setting
+ * overrides.
+ *
+ * The project settings can use any of the Shell library settings, like so:
+ *
+   $g-color-code-block-background: $shell-g-color-white;
+ *
+ * ---------------------------------------------------------------------------
+ *
+ * All settings start with a global namespace: `$g` followed by one hyphen,
+ * like this:
+ *
+   $g-;
+ *
+ * The "g" stands for "global".
+ *
+ * ----------------------------------------------------------------------------
+ *
+ * CONTENTS:
+ *
+ * 1. Colours
+ * 2. Typography
+ * 3. Shell overrides
+ */
+
+
+
+
+/* 1. Colours
+   ========================================================================= */
+
+/**
+ * Brand.
+ */
+
+$g-color-brand: #333;
+
+
+/**
+ * Text.
+ */
+
+// Base
+$g-color-text-base: $g-color-brand;
+
+// Subtle
+$g-color-subtle: rgba($g-color-text-base, 0.6);
+
+
+/**
+ * Slate.
+ */
+
+$g-color-slate: #607d8b;
+
+$g-color-slate-dark: #36474f;
+
+
+/**
+ * Gradient.
+ */
+
+// Dark
+//$g-color-gradient: linear-gradient($g-color-brand, $g-color-slate-dark);
+
+// Mardi Gras
+$g-color-gradient: linear-gradient(#e91e6d, #e71ec5);
+
+
+
+
+/* 2. Typography
+   ========================================================================= */
+
+$g-font-family-base: 'Archivo Narrow', serif;
+
+
+
+
+/* 3. Layout
+   ========================================================================= */
+
+$g-header-width-and-html-element-indent: 143px;
+
+
+
+
+/* 4. Shell overrides
+   ========================================================================= */
+
+/**
+ * Baseline number.
+ */
+
+$shell-g-base-number: 20;
+
+
+/**
+ * Colours (Global).
+ */
+
+$shell-g-color-text-base: $g-color-text-base;
+
+$shell-g-color-text-heading: $shell-g-color-text-base;
+
+$shell-g-color-link: $g-color-slate;
+
+$shell-g-color-link-hover: $g-color-slate-dark;
+
+
+/**
+ * Typography (Global).
+ */
+
+$shell-g-font-family-base: $g-font-family-base;
+
+$shell-g-font-size-heading: $shell-g-base-number * 1.25;
+
+$shell-g-font-size-heading-large: $shell-g-font-size-heading + 8;
+
+$shell-g-font-size-heading-huge: $shell-g-font-size-heading + 16;
+
+
+/**
+ * Base (Local).
+ */
+
+$shell-base-apply-link-transition: true;
+
+$shell-base-apply-bottom-margin-to-paragraphs: true;
+
+$shell-base-root-element-background-color: $g-color-gradient;
+
+// Links
+// $shell-base-link-text-decoration: underline;
+
+// $shell-base-link-text-decoration-on-hover: none;
+
+// $shell-base-link-transition-duration: 0.15s;
+
+// $shell-base-link-transition-timing-function: linear;
+
+
+/**
+ * Container (Local).
+ */
+
+$shell-container-maximum-width: $shell-g-base-number * 40;

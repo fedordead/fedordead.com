@@ -1,0 +1,75 @@
+/* ============================================================================
+   BASE
+   ========================================================================= */
+
+/**
+ * Here we provide very basic styling that most UI's will need. These styles
+ * are applied at the most global level being applied via element selectors.
+ * Everything in Base needs to be easily overridden which is really easy to do
+ * as everything in Base sits right at the bottom in terms of specificity.
+ *
+ * Some of this styling builds on top of Shell's "Base".
+ *
+ * CONTENTS:
+ *
+ * 1. Webfonts
+ * 2. Root element
+ */
+
+
+
+
+/* 1. Webfonts
+   ========================================================================= */
+
+/**
+ * Archivo Narrow.
+ */
+
+// Regular
+@font-face {
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: $shell-g-font-weight-normal;
+    src: local('Archivo Narrow'),
+         local('Archivo_Narrow'),
+         url('../fonts/ArchivoNarrow.woff2') format('woff2'),
+         url('../fonts/ArchivoNarrow.woff') format('woff');
+}
+
+// Bold
+@font-face {
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: $shell-g-font-weight-bold;
+    src: local('Archivo Narrow Bold'),
+         local('Archivo_Narrow_Bold'),
+         url('../fonts/ArchivoNarrow-Bold.woff2') format('woff2'),
+         url('../fonts/ArchivoNarrow-Bold.woff') format('woff');
+}
+
+// Italic
+@font-face {
+    font-family: 'Archivo Narrow';
+    font-style: italic;
+    font-weight: $shell-g-font-weight-normal;
+    src: local('Archivo Narrow Italic'),
+         local('Archivo_Narrow_Italic'),
+         url('../fonts/ArchivoNarrow-Italic.woff2') format('woff2'),
+         url('../fonts/ArchivoNarrow-Italic.woff') format('woff');
+}
+
+
+
+
+/* 2. Root element
+   ========================================================================= */
+
+/**
+ * We indent everything the width of the header so that we can perfectly center
+ * align in the viewport.
+ */
+
+html {
+    padding-left: $g-header-width-and-html-element-indent;
+}

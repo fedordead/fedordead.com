@@ -1,10 +1,10 @@
 {
     "posts": [
         {
-            "title": "Using responsive Web Components today",
-            "summary": "Web Components are set to simplify how we approach responsive design. Here's how you can start using them today",
+            "title": "Using Responsive Web Components today",
+            "summary": "Web Components are set to simplify how we approach responsive design. Here's how you can start using them today.",
             "author": "David Berner",
-            "published_date": "Mar 18",
+            "published_date": "Mar 18, 2016",
             "platform": "Sitepoint.com",
             "url": "http://www.sitepoint.com/responsive-web-components/"
         },
@@ -12,15 +12,15 @@
             "title": "Let’s Try Harder With Web Accessibility",
             "summary": "The Web truly is an empowering platform that enhances and broadens the lives of people with disabilities. It breaks down barriers that…",
             "author": "Chris Pearce",
-            "published_date": "Feb 25",
+            "published_date": "Feb 25, 2016",
             "platform": "Medium.com",
             "url": "https://medium.com/fed-or-dead/let-s-try-harder-with-web-accessibility-1d1a8db7afc0?source=latest---"
         },
         {
             "title": "How to decide what to learn next",
-            "summary": "Or: Help! I am drowning in knowledge",
+            "summary": "Or: Help! I am drowning in knowledge.",
             "author": "Bård Hovde",
-            "published_date": "Jan 12",
+            "published_date": "Jan 12, 2016",
             "platform": "Medium.com",
             "url": "https://medium.com/fed-or-dead/how-to-decide-what-to-learn-next-a47153c0d202?source=latest---"
         },
@@ -28,7 +28,7 @@
             "title": "7 reasons you should be hiring more junior developers",
             "summary": "I know it’s tempting, you’ve finally been given extra headcount for your team or you’re about to start a new project and your first thought…",
             "author": "David Berner",
-            "published_date": "Jan 5",
+            "published_date": "Jan 5, 2016",
             "platform": "Medium.com",
             "url": "https://medium.com/fed-or-dead/7-reasons-you-should-be-hiring-more-junior-developers-49f8d4a32fd0?source=latest---"
         },
@@ -42,7 +42,7 @@
         },
         {
             "title": "Reflections of a User Interface Developer",
-            "summary": "A craft is a pastime or a profession that requires particular skills and knowledge of skilled work",
+            "summary": "A craft is a pastime or a profession that requires particular skills and knowledge of skilled work.",
             "author": "Chris Pearce",
             "published_date": "Nov 29, 2015",
             "platform": "Medium.com",
@@ -58,7 +58,7 @@
         },
         {
             "title": "Do you really need a CMS?",
-            "summary": "Escaping the dynamic content pitfalls",
+            "summary": "Escaping the dynamic content pitfalls.",
             "author": "Bård Hovde",
             "published_date": "Nov 10, 2015",
             "platform": "Medium.com",
@@ -82,7 +82,7 @@
         },
         {
             "title": "Why ‘I don’t have time’ is a bullshit excuse for not learning",
-            "summary": " — and how to stop using it",
+            "summary": " — and how to stop using it.",
             "author": "David Berner",
             "published_date": "Oct 13, 2015",
             "platform": "Medium.com",
@@ -130,7 +130,7 @@
         },
         {
             "title": "The future web developer",
-            "summary": "A crazy attempt at predicting the unpredictable",
+            "summary": "A crazy attempt at predicting the unpredictable.",
             "author": "Bård Hovde",
             "published_date": "Jul 02, 2015",
             "platform": "Medium.com",
@@ -146,7 +146,7 @@
         },
         {
             "title": "Jank-free Scrolling",
-            "summary": "Getting rid of the jank",
+            "summary": "Getting rid of the jank.",
             "author": "Bård Hovde",
             "published_date": "Apr 18, 2015",
             "platform": "Medium.com",

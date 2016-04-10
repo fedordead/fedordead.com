@@ -1,0 +1,30 @@
+/* ============================================================================
+   LAYOUT -> TEMPLATE -> HEADER
+   ========================================================================= */
+
+/**
+ * The site header, rendered as a 100vh tall fixed positioned bar down the
+ * left side of viewport.
+ */
+
+
+.l-header {
+    height: 100vh;
+    margin-left: -$g-header-width-and-html-element-indent;
+    position: fixed;
+    width: $g-header-width-and-html-element-indent;
+}
+
+
+/**
+ * Logo.
+ */
+
+.l-header__logo {
+    display: block;
+}
+
+.l-header__logo-svg {
+    color: $shell-g-color-white;
+    fill: $g-color-text-base;
+}
