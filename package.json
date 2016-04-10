@@ -6,6 +6,14 @@
     "directory": "dist",
     "port": 4000
   },
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "cname": "fedordead.com",
+    "prep": [
+      "build:all"
+    ],
+    "noprompt": false
+  },
   "scripts": {
     "clean": "rm -r dist/*",
     "svg-min": "svgo -f src/_assets/img -o dist/img --disable cleanupIDs",
@@ -17,7 +25,8 @@
     "watch:all": "parallelshell 'npm run watch:css' 'npm run watch:html'",
     "build:css": "npm run compile-scss && npm run autoprefixer",
     "build:all": "npm run build:css && npm run compile-html && npm run svg-min",
-    "start": "npm run build:all && parallelshell 'ws' 'npm run watch:all'"
+    "start": "npm run build:all && parallelshell 'ws' 'npm run watch:all'",
+    "deploy": "npm run build:all && gh-pages-deploy"
   },
   "repository": {
     "type": "git",
@@ -25,6 +34,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "gh-pages-deploy": "^0.4.2",
     "local-web-server": "^1.2.1",
     "mustache": "^2.2.1",
     "node-sass": "^3.4.2",
