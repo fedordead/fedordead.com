@@ -46,7 +46,7 @@ $c-posts-spacing-bottom: $shell-g-spacing-tiny;
  */
 
 .c-posts__link {
-    color: $g-color-text-base;
+    color: $g-color-text;
     display: block;
     position: relative;
     text-decoration: none;
@@ -97,5 +97,5 @@ $c-posts-spacing-bottom: $shell-g-spacing-tiny;
 
 .c-posts__meta-value {
     margin-left: rem(2);
-    margin-right: rem($shell-g-spacing-base);
+    margin-right: rem($shell-g-spacing);
 }
