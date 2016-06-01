@@ -1,6 +1,14 @@
 {
     "posts": [
         {
+            "title": "Battling BEM (Enhanced Edition) – 10 common problems and how to avoid them",
+            "summary": "Originally posted on Medium, David has revisited and added a further 5 problems and their solutions.",
+            "author": "David Berner",
+            "published_date": "Jun 01, 2016",
+            "platform": "SmashingMagazine.com",
+            "url": "https://www.smashingmagazine.com/battling-bem/"
+        },
+        {
             "title": "Using Responsive Web Components today",
             "summary": "Web Components are set to simplify how we approach responsive design. Here's how you can start using them today.",
             "author": "David Berner",
