@@ -41,7 +41,7 @@
     "onchange": "^2.2.0",
     "parallelshell": "^2.0.0",
     "postcss-cli": "^2.5.1",
-    "shell-csslib": "^0.7.0",
+    "shell-csslib": "^1.0.0",
     "svgo": "^0.6.3"
   }
 }
