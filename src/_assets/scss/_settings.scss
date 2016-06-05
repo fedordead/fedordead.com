@@ -46,10 +46,10 @@ $g-color-brand: #333;
  */
 
 // Base
-$g-color-text-base: $g-color-brand;
+$g-color-text: $g-color-brand;
 
 // Subtle
-$g-color-subtle: rgba($g-color-text-base, 0.6);
+$g-color-subtle: rgba($g-color-text, 0.6);
 
 
 /**
@@ -77,7 +77,7 @@ $g-color-gradient: linear-gradient(#e91e6d, #e71ec5);
 /* 2. Typography
    ========================================================================= */
 
-$g-font-family-base: 'Archivo Narrow', serif;
+$g-font-family: 'Archivo Narrow', serif;
 
 
 
@@ -104,9 +104,9 @@ $shell-g-base-number: 20;
  * Colours (Global).
  */
 
-$shell-g-color-text-base: $g-color-text-base;
+$shell-g-color-text: $g-color-text;
 
-$shell-g-color-text-heading: $shell-g-color-text-base;
+$shell-g-color-text-heading: $shell-g-color-text;
 
 $shell-g-color-link: $g-color-slate;
 
@@ -117,13 +117,13 @@ $shell-g-color-link-hover: $g-color-slate-dark;
  * Typography (Global).
  */
 
-$shell-g-font-family-base: $g-font-family-base;
+$shell-g-font-family: $g-font-family;
 
 $shell-g-font-size-heading: $shell-g-base-number * 1.25;
 
 $shell-g-font-size-heading-large: $shell-g-font-size-heading + 8;
 
-$shell-g-font-size-heading-huge: $shell-g-font-size-heading + 16;
+$shell-g-font-size-heading-2x-large: $shell-g-font-size-heading + 16;
 
 
 /**
