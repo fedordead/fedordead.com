@@ -20,11 +20,12 @@
     "compile-html": "mustache src/data/posts.json src/index.mustache > dist/index.html",
     "compile-scss": "node-sass --output-style compressed -o dist/css src/_assets/scss/style.scss",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "copy-fonts": "cp -r src/_assets/fonts dist/fonts",
     "watch:css": "onchange 'src/_assets/scss/**.scss' -- npm run build:css",
     "watch:html": "onchange 'src/**.mustache' -- npm run compile-html",
     "watch:all": "parallelshell 'npm run watch:css' 'npm run watch:html'",
     "build:css": "npm run compile-scss && npm run autoprefixer",
-    "build:all": "npm run build:css && npm run compile-html && npm run svg-min",
+    "build:all": "npm run build:css && npm run compile-html && npm run svg-min && npm run copy-fonts",
     "start": "npm run build:all && parallelshell 'ws' 'npm run watch:all'",
     "deploy": "npm run build:all && gh-pages-deploy"
   },
