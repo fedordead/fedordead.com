@@ -1,8 +1,24 @@
 {
     "posts": [
         {
+            "title": "Handling spacing in a UI component library",
+            "summary": "Different approaches on how to handle spacing between components within a highly consumable UI component library.",
+            "author": "Chris Pearce",
+            "published_date": "Jan 12, 2017",
+            "platform": "Medium.com",
+            "url": "https://medium.com/@chrispearce/handling-spacing-in-a-ui-component-library-70f3b22ec89"
+        },
+        {
+            "title": "Steve Albini and the pointless vocal harmony",
+            "summary": "Good advice on knowing when to push back on features that don't benefit the user.",
+            "author": "Nick Moreton",
+            "published_date": "Dec 8, 2016",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/steve-albini-and-the-pointless-vocal-harmony-6d258819fdd5"
+        },
+        {
             "title": "Not An Imposter: Fighting Front-End Fatigue",
-            "summary": "Some tips on how to deal with the ever increasing number of Frontend technologies.",
+            "summary": "Some tips on how to deal with the ever increasing number of front end technologies.",
             "author": "David Berner",
             "published_date": "Nov 17, 2016",
             "platform": "SmashingMagazine.com",
@@ -12,7 +28,7 @@
             "title": "Battling BEM (Enhanced Edition) – 10 common problems and how to avoid them",
             "summary": "Originally posted on Medium, David has revisited and added a further 5 problems along with their solutions.",
             "author": "David Berner",
-            "published_date": "Jun 01, 2016",
+            "published_date": "Jun 1, 2016",
             "platform": "SmashingMagazine.com",
             "url": "https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/"
         },
@@ -148,7 +164,7 @@
             "title": "The future web developer",
             "summary": "A crazy attempt at predicting the unpredictable.",
             "author": "Bård Hovde",
-            "published_date": "Jul 02, 2015",
+            "published_date": "Jul 2, 2015",
             "platform": "Medium.com",
             "url": "https://medium.com/fed-or-dead/the-future-web-developer-72b780293186?source=latest---"
         },
