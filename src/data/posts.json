@@ -1,6 +1,30 @@
 {
     "posts": [
         {
+            "title": "Handling SCSS variables at scale",
+            "summary": "A suggested approach for using SCSS variables on large web projects.",
+            "author": "David Berner",
+            "published_date": "Sep 03, 2017",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/handing-scss-variables-at-scale-78e14652175c"
+        },
+        {
+            "title": "JavaScript really is overtaking the world",
+            "summary": "Has JavaScript become the be–all and end–all of front end development?",
+            "author": "Chris Pearce",
+            "published_date": "Jul 12, 2017",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/javascript-really-is-overtaking-the-world-5b59b5af41ed"
+        },
+        {
+            "title": "Handling headings in a UI component library",
+            "summary": "Building a highly consumable UI component library is no easy feat and this article will focus on one particular aspect of it: headings",
+            "author": "Chris Pearce",
+            "published_date": "Apr 28, 2017",
+            "platform": "Medium.com",
+            "url": "https://medium.com/fed-or-dead/handling-headings-in-a-ui-component-library-2587de93c890"
+        },
+        {
             "title": "Handling spacing in a UI component library",
             "summary": "Different approaches on how to handle spacing between components within a highly consumable UI component library.",
             "author": "Chris Pearce",
